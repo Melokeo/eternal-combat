@@ -18,6 +18,7 @@ Main dataflow:
 Features:
 
 - A whole bunch of weird attacks & statuses
+- Dynamic balancing based on battle history
 - User interaction:
   - Crowd supports
   - Chaos if you'd prefer
