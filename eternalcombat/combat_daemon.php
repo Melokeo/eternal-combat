@@ -269,6 +269,8 @@ while (true) {
     // Clear break timer
     writeState($wolf, $loong, $battle_count, $round_num, $wolf_wins, $loong_wins, $action_log, ['break_remaining' => 0]);
     // reset for next battle
+    $wolf->clearAllStatusEffects();
+    $loong->clearAllStatusEffects();
     balancedFighterReset($wolf, $loong, $wolf_wins, $loong_wins, $battle_results);
 
     // keep msg for plotting

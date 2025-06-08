@@ -116,6 +116,15 @@ class Fighter {
         $this->status_effects = array_filter($this->status_effects, fn($e) => $e->name !== $effect->name);
         $this->status_effects[] = $effect;
     }
+
+    public function clearAllStatusEffects(): void {
+        $this->status_effects = [];
+        $this->speed = $this->inherited_speed;
+        $this->attack = $this->inherited_attack;  
+        $this->defense = $this->inherited_defense;
+        $this->accuracy = $this->inherited_accuracy;
+        $this->can_act = true;
+    }
     
     /* public function processStatusEffects(): array {
         $messages = [];
