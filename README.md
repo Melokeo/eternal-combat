@@ -22,3 +22,5 @@ Features:
 - User interaction:
   - Crowd supports
   - Chaos if you'd prefer
+
+![image](https://github.com/user-attachments/assets/bbd5728b-9d4d-43d7-9fa5-90ff21791113)
